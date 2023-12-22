@@ -71,7 +71,7 @@ docker inspect -f '{{.HostConfig.NetworkMode}}' e72e09c4cba3
 ```shell
 sudo docker network ls
 
-sudo docker network inspect ingress
+sudo docker network inspect {network_name}
 ```
 
 ### 5. 查看容器的worknetid

@@ -47,7 +47,7 @@ http://127.0.0.1:5001/v2/_catalog
 
 kubectl apply -f deployment.yaml
 kubectl apply -f service.yaml
-minikube service http-proxy-service
+minikube service notebook-service
 ```
 
 

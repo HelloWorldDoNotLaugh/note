@@ -223,5 +223,11 @@ docker network rm $(docker network ls -q)
 docker system prune -a
 ```
 
+### 6.6 清除构建缓存
+
+```bash
+docker builder prune
+```
+
 
 

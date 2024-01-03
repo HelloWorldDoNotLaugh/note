@@ -112,6 +112,8 @@ docker stop <container_id>
 
 ```shell
 docker rm <container_id>
+# 强制删除
+docker rm -f <container_id>
 ```
 
 ### 3.4 查看运行日志

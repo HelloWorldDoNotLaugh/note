@@ -88,7 +88,7 @@ docker inspect -f '{{.NetworkSettings.Networks.<network_name>.NetworkID}}' 67017
  
 ```
 
-# 构建镜像
+## 构建镜像
 
 ![image-20231110143724457](./docker常用命令.assets/image-20231110143724457.png)
 
@@ -98,7 +98,7 @@ docker inspect -f '{{.NetworkSettings.Networks.<network_name>.NetworkID}}' 67017
 sudo docker build -t hello:1.0 -f ./Dockerfile .
 ```
 
-# 启动镜像
+## 启动镜像
 
 ```shell
 sudo docker run -p {主机端口}:{容器端口} hello:1.0

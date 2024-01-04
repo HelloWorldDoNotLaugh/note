@@ -30,6 +30,8 @@ sudo systemctl restart docker
 # docker load 后弹出的sha256的前几位就是镜像ID
 # 模糊查询即可
 docker images --format '{{.ID}}' | grep '^709f2bc'
+
+docker images |grep 709f2bc
 ```
 
 ## 1. 制作镜像
@@ -91,8 +93,6 @@ docker save -o <image_name>.tar <image_name>
 ```shell
 docker load -i <image_name>.tar
 ```
-
-##
 
 ## 3. 容器相关
 
